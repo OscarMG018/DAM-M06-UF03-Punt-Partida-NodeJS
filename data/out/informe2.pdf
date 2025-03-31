@@ -1,0 +1,625 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 6700
+>>
+stream
+0.5670000000000001 w
+0 G
+0. G
+0.5670000000000001 w
+0. G
+0.5670000000000001 w
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+40. 785.1970866141731449 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+45. 771.6970866141732586 Td
+(Title) Tj
+ET
+0. G
+0.5670000000000001 w
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 763.6970866141731449 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 750.1970866141732586 Td
+(How does Cardano differentiate itself in the DeFi space?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 742.1970866141732586 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 728.6970866141732586 Td
+(Will ERC-20 converter support the legacy ERC-20 token itself?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 720.6970866141731449 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 707.1970866141732586 Td
+(When are the snapshots for the active stake in an epoch taken?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 699.1970866141732586 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 685.6970866141732586 Td
+(There is a CPU spike once per hour when logging "TraceLedgerEvent.TookSnapshot". Is it a bug, or is there a fix?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 677.6970866141732586 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 664.1970866141732586 Td
+(db-sync makes a rollback after using RESTORE_SNAPSHOT) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 656.1970866141732586 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 642.6970866141732586 Td
+(Can Token Registry be used for NFTs? Can I self-host a Token Registry?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 634.6970866141732586 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 621.1970866141732586 Td
+(Strongest arguments against self-referentiality in PoS) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 613.1970866141732586 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 599.6970866141732586 Td
+(Selfish mining / denial of service on Cardano?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 591.6970866141732586 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 578.1970866141732586 Td
+(How to make certain script inputs available only to the script iself?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 570.1970866141731449 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 556.6970866141732586 Td
+(1.33.0 cardano-cli query stake-snapshot does not generate json) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 548.6970866141731449 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 535.1970866141732586 Td
+(Can you burn/lock/self-destruct NFTs in a a smart contract?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 527.1970866141732586 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 513.6970866141732586 Td
+(How to get assets with a specifc policy id from a wallet address using BlockFrost OpenAPI) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 505.6970866141731449 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 492.1970866141731449 Td
+(Best ways to create UTxO snapshots at epoch boundary) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 484.197086614173088 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 470.6970866141731449 Td
+(Research collaboration: past snapshots of Yoroi/Adapools pool rankings) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 462.6970866141731449 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 449.1970866141732017 Td
+(Syncing from genesis instead of snapshot) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 441.1970866141731449 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 427.6970866141732017 Td
+(Can Mithril Aggregators change snapshot after signing?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 419.6970866141732017 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 406.1970866141732586 Td
+(How can client update transaction after taking snapshot of Mithril?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 398.1970866141732017 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 384.6970866141732586 Td
+(Does the hydra node automaticly contest an invalid snapshot?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 376.6970866141732586 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 363.1970866141733154 Td
+(Error when unpacking snapshot to bootstrap Cardano node by using Mithril) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 355.1970866141732586 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 341.6970866141733154 Td
+(Get back my funds after a mistaken self transaction on Cardano) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 333.6970866141733154 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 320.1970866141733723 Td
+(Can a smart contract execute itself automatically?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 312.1970866141733154 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 298.6970866141733723 Td
+(How does the Mithril network sustain itself?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 290.6970866141733723 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 277.1970866141733723 Td
+(How to take the snapshot of staking NFTs?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 269.1970866141733723 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 255.6970866141734859 Td
+(Restore state snapshot running out of disk space) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 247.6970866141734291 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 234.1970866141734859 Td
+(How can Mithril update the transactions after taking the snapshot?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 226.1970866141734575 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 212.6970866141734859 Td
+(pub-key hash for Plutus Pioneers - self-certification challenge) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 204.6970866141734859 515.279999999999859 -32.9999999999999929 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 191.1970866141734859 Td
+(DB Sync Upgrade to v 3.1.1.3 snapshot restore \(4 days old\) running "extra migration consumed_tx_out". Why is) Tj
+T* (new column not included in snapshot?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 171.6970866141735144 515.279999999999859 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 158.1970866141735996 Td
+(How to continue syncing the newest data after importing snapshot data completed) Tj
+ET
+0. G
+0.5670000000000001 w
+0.78 G
+0. w
+0. G
+0.5670000000000001 w
+0. G
+0.5670000000000001 w
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 3.0.1)
+/CreationDate (D:20250331200035+02'00')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000006904 00000 n 
+0000008721 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000006961 00000 n 
+0000007086 00000 n 
+0000007216 00000 n 
+0000007349 00000 n 
+0000007486 00000 n 
+0000007609 00000 n 
+0000007738 00000 n 
+0000007870 00000 n 
+0000008006 00000 n 
+0000008134 00000 n 
+0000008261 00000 n 
+0000008390 00000 n 
+0000008523 00000 n 
+0000008625 00000 n 
+0000008969 00000 n 
+0000009055 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <6F28FFE7FFA95CC8DF2FB8BD1A02E7C5> <6F28FFE7FFA95CC8DF2FB8BD1A02E7C5> ]
+>>
+startxref
+9159
+%%EOF

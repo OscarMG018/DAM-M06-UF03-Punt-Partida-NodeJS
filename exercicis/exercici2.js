@@ -1,15 +1,18 @@
 const { MongoClient } = require('mongodb');
 const Logger = require('./logger');
-
-
+const jspdf = require("jspdf");
+const autoTable = require("jspdf-autotable");
 const uri = process.env.MONGODB_URI || "mongodb://localhost:27017";
 const dbName = 'post_db';
 const collectionName = 'posts';
+const path = require('path');
+const fs = require('fs');
+
 // --------------------
 
 async function runQueries() {
     const client = new MongoClient(uri);
-
+    const outputDir = path.join(__dirname, "../data/out");
     try {
         // Connect to the MongoDB cluster
         await client.connect();
@@ -61,10 +64,28 @@ async function runQueries() {
                  if (highViewCountPosts.length > 10) {
                     Logger.log("... and more.");
                 }
+
+                const doc = new jspdf.jsPDF();
+                const headers = [["Title"]]; // Table Header
+                const data = highViewCountPosts.map(post => [post.Title]);
+                // Generate Table
+                autoTable.autoTable(doc, {
+                    head: headers,
+                    body: data,
+                    startY: 20
+                });
+                const outputFile = path.join(outputDir, "informe1.pdf");
+                if (!fs.existsSync(outputDir)) {
+                    fs.mkdirSync(outputDir, { recursive: true });
+                }
+
+                // Write the file
+                fs.writeFileSync(outputFile, Buffer.from(doc.output("arraybuffer")));
             } else {
                 Logger.log(`No posts found with ViewCount greater than the average (${averageViewCount}).`);
             }
         }
+        
 
 
         // --- Query 2: Preguntes amb títols que contenen paraules específiques ---
@@ -91,15 +112,33 @@ async function runQueries() {
             Logger.log("");
              // Print limited results for brevity
             matchingTitlePosts.slice(0, 10).forEach(post => Logger.log(post));
-             if (matchingTitlePosts.length > 10) {
+            if (matchingTitlePosts.length > 10) {
                 Logger.log("... and more.");
             }
+
+            const doc = new jspdf.jsPDF();
+            const headers = [["Title"]]; // Table Header
+            const data = matchingTitlePosts.map(post => [post.Title]);
+            // Generate Table
+            autoTable.autoTable(doc, {
+                head: headers,
+                body: data,
+                startY: 20
+            });
+            const outputFile = path.join(outputDir, "informe2.pdf");
+            if (!fs.existsSync(outputDir)) {
+                fs.mkdirSync(outputDir, { recursive: true });
+            }
+        
+            // Write the file
+            fs.writeFileSync(outputFile, Buffer.from(doc.output("arraybuffer")));
+
         } else {
             Logger.log("No posts found with titles matching the specified words.");
         }
-
+        
     } catch (error) {
-        Logger.error("An error occurred:", error);
+        Logger.error("An error occurred:"+ error);
     } finally {
         // Ensures that the client will close when you finish/error
         await client.close();
