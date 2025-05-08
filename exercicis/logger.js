@@ -9,7 +9,7 @@ const logToFile = (level, ...args) => {
   );
   
   const message = `[${level.toUpperCase()}] ${processedArgs.join(' ')}\n`;
-  fs.appendFileSync('../data/logs/exerci1.log', message);
+  fs.appendFileSync('../data/logs/exercici1.log', message);
   console[level](message.trim());
 };
 
